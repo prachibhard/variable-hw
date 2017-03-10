@@ -24,16 +24,18 @@
 
     <body>
         <h1> This is a calculator </h1>
-        <form>
-            <input type="text" id="a" placeholder="First Number" />
-            <input type="text" id="b" placeholder="Second Number" />
-            <input id="compute" type="button" value="compute" />
-        </form>
-        <div class="answers">
-            <br><br> When I add <span class="a">the first number</span> to <span class="b">the second number</span>, I get <span id="sum">this</span>.
-            <br><br> When I multiply <span class="a">the first number</span> by <span class="b">the second number</span>, I get <span id="product">this</span>.
-            <br><br> When I divide <span class="a">the first number</span> by <span class="b">the second number</span> I get <span id="quotient">this</span>.
-            <br><br> When I subtract <span class="a">the first number</span> from <span class="b">the second number</span>, I get <span id="difference">this</span>.
+        <div class="form-container">
+            <div class="form">
+                <input type="text" id="a" placeholder="First Number" />
+                <input type="text" id="b" placeholder="Second Number" />
+                <input id="compute" type="button" value="compute" />
+            </div>
+            <div class="answers">
+                <br><br> When I add <span class="a">the first number</span> to <span class="b">the second number</span>, I get <span id="sum">this</span>.
+                <br><br> When I multiply <span class="a">the first number</span> by <span class="b">the second number</span>, I get <span id="product">this</span>.
+                <br><br> When I divide <span class="a">the first number</span> by <span class="b">the second number</span> I get <span id="quotient">this</span>.
+                <br><br> When I subtract <span class="a">the first number</span> from <span class="b">the second number</span>, I get <span id="difference">this</span>.
+            </div>
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

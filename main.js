@@ -2,15 +2,6 @@ $(document).ready(function () {
 	$("#compute").on("click", function (e) {
 		e.preventDefault();
 
-		$(".answers").addClass(".active");
-
-	});
-});
-
-$(document).ready(function () {
-	$("#compute").on("click", function (e) {
-		e.preventDefault();
-
 		var a = parseFloat($("#a").val());
 		var b = parseFloat($("#b").val());
 
@@ -25,6 +16,8 @@ $(document).ready(function () {
 		$("#difference").text(difference);
 		$(".a").text(a);
 		$(".b").text(b);
+
+		$(".answers").addClass("active");
 
 	});
 });
