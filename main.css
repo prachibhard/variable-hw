@@ -62,12 +62,19 @@ table {
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    margin: 1em
 }
 
 form {
-    padding: 1em;
     max-width: 980px;
-    margin: 0 auto;
+}
+
+.answers {
+    opacity: 0;
+}
+
+.answers.active {
+    opacity: 1;
 }
 
 input[type='text'] {

@@ -23,15 +23,18 @@
     </head>
 
     <body>
+        <h1> This is a calculator </h1>
         <form>
-            <input type="text" class="numeral" id="a" placeholder="First Number" />
-            <input type="text" class="numeral" id="b" placeholder="Second Number" />
+            <input type="text" id="a" placeholder="First Number" />
+            <input type="text" id="b" placeholder="Second Number" />
             <input id="compute" type="button" value="compute" />
         </form>
-        <form>
-            When I add the first number to the second number, I get <input type="text" id="sum" readonly />.<br> When I multiply the first number by the second number, I get <input type="text" id="product" readonly />.<br> When I divide the first number
-            by the second number I get <input type="text" id="quotient" readonly />.<br> When I subtract the first number from the second number, I get <input type="text" id="difference" readonly />.
-        </form>
+        <div class="answers">
+            <br><br> When I add <span class="a">the first number</span> to <span class="b">the second number</span>, I get <span id="sum">this</span>.
+            <br><br> When I multiply <span class="a">the first number</span> by <span class="b">the second number</span>, I get <span id="product">this</span>.
+            <br><br> When I divide <span class="a">the first number</span> by <span class="b">the second number</span> I get <span id="quotient">this</span>.
+            <br><br> When I subtract <span class="a">the first number</span> from <span class="b">the second number</span>, I get <span id="difference">this</span>.
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
